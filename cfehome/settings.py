@@ -41,12 +41,7 @@ INSTALLED_APPS = [
      #third party
 
      #own
-     'TestPlayers',
-     't20_players',
-     'Blog',
-     'weather',
-     'todo',
-     'polls',
+     
 
      'accounts.apps.AccountsConfig',
      'django_filters',
@@ -99,10 +94,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'demo_1',
-        'USER': 'manish',
-        'PASSWORD': 'Manish88',
-        'HOST' : 'database-1.cajf4rxmxlsc.us-east-2.rds.amazonaws.com',
-        'PORT' : '5426'
+        'USER': '*****',
+        'PASSWORD': '******',
+        'HOST' : '******',
+        'PORT' : '***'
     }
 }
 '''
@@ -181,17 +176,17 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True 
-EMAIL_HOST_USER = 'princemanishmb@gmail.com'
-EMAIL_HOST_PASSWORD = 'Manish123_123'
+EMAIL_HOST_USER = '*****'
+EMAIL_HOST_PASSWORD = '****'
 
 
 #S3 BUCKETS CONFIG
 
 
 
-AWS_ACCESS_KEY_ID = 'AKIATYBEM6GNHRCJUCQP'
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'manish73'
+AWS_ACCESS_KEY_ID = '******'
+AWS_SECRET_ACCESS_KEY = '*******'
+AWS_STORAGE_BUCKET_NAME = '****'
 
 
 AWS_S3_FILE_OVERWRITE = False
